@@ -1,0 +1,104 @@
+a {
+  color: #008891;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+   }
+
+body {
+  background-color: #fcf8ec;
+}
+
+h1 {
+  color: #0f3057;
+  font-family: Helvetica, Impact, monospace;
+  font-size: 150px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+    }
+
+h2 {
+      color: #008891;
+      font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+h3 {
+  color: #008891;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h4 {
+  color: #008891;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #efd9d1;
+  border-width: 25px;
+  width:35px;
+}
+
+label {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+  color: #e6739f;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+  color: #e6739f;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: justify;
+}
+
+ td {color: #e6739f;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #cd5d7d;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fcf8ec;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e6739f;
+  color: #fcf8ec;
+}
+
+/* Add a color to the active/current link */
+.topnav .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #fcf8ec;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #efb08c;
+  border-radius: 5px;
+}
